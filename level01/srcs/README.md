@@ -1,0 +1,3 @@
+-In level00 we already got the hash for flag01 42hDRfypTqqnw,we need to decrypt it
+-Using johnthereaper to decrypt the hash -> abcdefg
+-Launched getflag -> f2av5il02puano7naaf6adaaf
