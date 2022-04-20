@@ -56,7 +56,7 @@ But first we need to deal with the 2 regex lines:
     getflag > /tmp/token
   ```
  
- chmod 777 /tmp/file so another user can access it
+ `chmod 777 /tmp/file` so another user can access it
  we still have one problem its that our output will become like this \`/TMP/FILE/\` and its not a valid path so we will change it to \`/*/FILE/\`
  we go to browser and go to:
  
