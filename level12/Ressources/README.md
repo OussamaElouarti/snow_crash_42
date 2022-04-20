@@ -34,7 +34,7 @@ sub n {
 
 Its a script runing on localhost on port 4646 that takes 2 args but we will focus on the first one because it got a potentiel of command injection in this line :
 
-```@output = \`egrep "^$xx" /tmp/xd 2>&1\`;```
+```@output = `egrep "^$xx" /tmp/xd 2>&1`;```
 
 
 But first we need to deal with the 2 regex lines:
@@ -61,7 +61,7 @@ But first we need to deal with the 2 regex lines:
  we go to browser and go to:
  
  ```
- http://192.168.43.125:4646/?x="\`/*/FILE\`"
+ http://192.168.43.125:4646/?x="`/*/FILE`"
  ```
  
  comeback to terminal and cat /tmp/token :
