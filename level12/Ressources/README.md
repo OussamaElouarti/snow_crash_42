@@ -61,7 +61,7 @@ But first we need to deal with the 2 regex lines:
  we go to browser and go to:
  
  ```
- http://192.168.43.125:4646/?x="`/*/FILE`"
+ http://machineip:4646/?x="`/*/FILE`"
  ```
  
  comeback to terminal and cat /tmp/token :
