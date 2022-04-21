@@ -1,5 +1,10 @@
--ls found a suid file 
--using strings on file get us some informations, when we execute the file output => exploit me
+## Level03
+
+ls found a suid file 
+
+when we execute the file output => exploit me
+
+Using strings on file get us some informations
 -strings gives us that the suid calls /usr/bin/env echo Exploit me
 -so we can create a new echo in /tmp and change the path to begin with /tmp => export path=“/tmp:$PATH”
 -created file in tmp should be like: 
