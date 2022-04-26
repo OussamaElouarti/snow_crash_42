@@ -57,7 +57,7 @@ But first we need to deal with the 2 regex lines:
   ```
  
  `chmod 777 /tmp/FILE` so another user can access it
- we still have one problem its that our output will become like this \`/TMP/FILE/\` and its not a valid path so we will change it to \`/*/FILE/\`
+ we still have one problem its that our input will become like this \`/TMP/FILE/\` and its not a valid path so we will change it to \`/*/FILE/\`
  we go to browser and go to:
  
  ```
